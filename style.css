@@ -96,3 +96,20 @@ hr{
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
+.horario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horario table{
+    border-collapse: collapse;
+}
+
+.horario th{
+    padding: 5px 15px;
+    background-color: #b048fc;
+    color: #fff;
+    font-weight: bold;
+}
