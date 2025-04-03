@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FAFAFA;
 }
 
 /*Estilo de la presentacion*/
@@ -21,6 +22,7 @@ body{
 .presentation-box{
     width: 100%;
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 .container .presentation-box img{
@@ -56,44 +58,43 @@ h1{
 hr{
     width: 90%;
     margin-left: 60px;
-    margin-top: 20px;
 }
 
-/*Estilos de la lista de pasatiempos*/
-
-.pasatiempos-titulo{
-    margin-left: 42%;
-    margin-top: 15px;
+/*Estilos de la lista de pasatiempos y pendientes*/
+.pasatiempos-titulo, .tasks-titulo{
+    text-align: center;
     margin-bottom: 10px;
 }
 
-.pasatiempos{
+.pasatiempos, .tasks{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #b048fc;
+    border-radius: 20px;
+    width: 380px;
+    height: 148px;
+    padding: 15px 30px;
+    margin: 0 30px;
+}
+
+li{
+    margin-left: 10px;
+    padding-bottom: 3px;
+}
+
+/*Estilos del div bento*/
+.bento{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    margin-left: 26%;
-}
-
-/*Estilos de la lista de pendientes*/
-.tasks-titulo{
-    margin-left: 42%;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-.tasks{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin-left: 26%;
+    height: 200px;
+    margin: 10px;
 }
 
 /*Estilos del horario*/
 .horario-titulo{
     margin-left: 41%;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
