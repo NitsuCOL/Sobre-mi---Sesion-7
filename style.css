@@ -60,3 +60,39 @@ hr{
 }
 
 /*Estilos de la lista de pasatiempos*/
+
+.pasatiempos-titulo{
+    margin-left: 42%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.pasatiempos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 26%;
+}
+
+/*Estilos de la lista de pendientes*/
+.tasks-titulo{
+    margin-left: 42%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.tasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 26%;
+}
+
+/*Estilos del horario*/
+.horario-titulo{
+    margin-left: 41%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
