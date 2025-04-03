@@ -105,11 +105,20 @@ hr{
 
 .horario table{
     border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
 .horario th{
-    padding: 5px 15px;
+    padding: 5px 10px;
     background-color: #b048fc;
     color: #fff;
+    border: 1px solid #dbdbdb;
     font-weight: bold;
+}
+
+.horario td{
+    padding: 15px 10px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    width: 100px;
 }
