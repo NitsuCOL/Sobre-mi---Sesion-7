@@ -13,6 +13,7 @@ body{
     align-items: center;
 }
 
+/*Estilo de la presentacion*/
 .container{
     width: 100%;
 }
@@ -57,3 +58,5 @@ hr{
     margin-left: 60px;
     margin-top: 20px;
 }
+
+/*Estilos de la lista de pasatiempos*/
